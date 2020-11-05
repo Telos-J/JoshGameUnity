@@ -11,10 +11,15 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 movement;
     public TilemapRenderer doorSprite;
     public TilemapCollider2D doorCollider;
+    public PlayerState initialState;
+
+    private void Start() {
+        transform.position = initialState.position;
+    }
 
     // Update is called once per frame
     // However your framerate can constantly change
-    void Update()
+    private void Update()
     {
         movement.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         movement.Normalize();
@@ -27,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Fixed Update is executed by a fixed timer.
     // By default, 50 times per second.
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         // Movement
         rb.MovePosition(rb.position + movement * maxSpeed * Time.fixedDeltaTime);
@@ -43,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    public void ToggleDoor()
+    private void ToggleDoor()
     {
         doorSprite.enabled = !doorSprite.enabled;
         doorCollider.enabled = !doorCollider.enabled;
