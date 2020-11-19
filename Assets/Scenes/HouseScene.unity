@@ -9240,7 +9240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: WorldScene
   stateToLoad: {fileID: 11400000, guid: cf4ad084d9696d4498450c2f275cd2a9, type: 2}
-  positionToLoad: {x: 3, y: -2}
+  positionToLoad: {x: 20.5, y: 5}
 --- !u!1001 &2625776350508557355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9346,12 +9346,12 @@ PrefabInstance:
     - target: {fileID: 5069010035217836503, guid: 2551171474ae05645a36f57ee4d000cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.05
+      value: 16.5
       objectReference: {fileID: 0}
     - target: {fileID: 5069010035217836503, guid: 2551171474ae05645a36f57ee4d000cc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.22
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5069010035217836503, guid: 2551171474ae05645a36f57ee4d000cc,
         type: 3}

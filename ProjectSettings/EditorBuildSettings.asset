@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldScene.unity
     guid: dc2fb7edb88d4474788431af9f97ccfc
+  - enabled: 1
+    path: Assets/Scenes/ThroneRoomScene.unity
+    guid: 36ca9cfa24cd7b741ac48142742e90cb
   m_configObjects: {}
