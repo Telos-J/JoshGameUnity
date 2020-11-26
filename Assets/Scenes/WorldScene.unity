@@ -10329,4 +10329,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: ThroneRoomScene
   stateToLoad: {fileID: 11400000, guid: cf4ad084d9696d4498450c2f275cd2a9, type: 2}
-  positionToLoad: {x: 13, y: -42.5}
+  positionToLoad: {x: 0, y: 0}
